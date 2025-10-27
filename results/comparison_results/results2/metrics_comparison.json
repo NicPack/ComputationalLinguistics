@@ -1,0 +1,26 @@
+{
+  "transformer": {
+    "num_parameters": 164553555,
+    "num_parameters_millions": 164.553555,
+    "train_loss": 3.8956799507141113,
+    "val_loss": 3.90706205368042,
+    "train_perplexity": 49.18948842207882,
+    "val_perplexity": 49.7525666724788,
+    "total_tokens_generated": 1000,
+    "total_inference_time": 8.66250467300415,
+    "mean_time_per_token_ms": 8.66250467300415,
+    "tokens_per_second": 115.44005316573188
+  },
+  "lstm": {
+    "num_parameters": 160911699,
+    "num_parameters_millions": 160.911699,
+    "train_loss": 4.927441596984863,
+    "val_loss": 4.917261123657227,
+    "train_perplexity": 138.0259342688185,
+    "val_perplexity": 136.62789336019304,
+    "total_tokens_generated": 1000,
+    "total_inference_time": 3.1891579627990723,
+    "mean_time_per_token_ms": 3.1891579627990723,
+    "tokens_per_second": 313.56239222541245
+  }
+}

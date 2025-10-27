@@ -1,0 +1,166 @@
+================================================================================
+Transformer - Text Generations
+================================================================================
+
+Model Metrics:
+  Parameters: 164,553,555 (164.55M)
+  Train Loss: 3.8957
+  Train Perplexity: 49.19
+  Val Loss: 3.9071
+  Val Perplexity: 49.75
+  Total Tokens Generated: 1000
+  Total Inference Time: 8.663s
+  Mean Time per Token: 8.66ms
+
+================================================================================
+
+Generation 1/10
+--------------------------------------------------------------------------------
+Prompt: Warszawa to stolica
+
+Generated Text:
+Warszawa to stolica wszystkie wejść Dellitkim.
+S.
+Mume Kubick Ewangelizują terenie Jerozolimy. Na mieszje gruntów (np. planowienie z początku XX wieku w 158 ha ponownie znajduje się na tamtym czasie przed służy polsko-opawią przebywających133 mieszkańców kompaniami i do przeprowadzenia wojennymi i walut przemyszył – podoficerów (anz n ratunki) również biblijną,
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.945s
+  Tokens per Second: 105.82
+
+================================================================================
+
+Generation 2/10
+--------------------------------------------------------------------------------
+Prompt: Historia Polski rozpoczęła się
+
+Generated Text:
+Historia Polski rozpoczęła się w budowę piłkarz jąerkląskim w 1831 roku. W 1885 roku zbudowanej – Cesarstwo Partii Janowicza, który posiada przejęta ustanowiono licencję spisk do Kasztoli. Zabieszczono w Bukareszt Larsen udanym dziewię Karol, wywoźnień wojskowej. Hitler II wojny światowej. Pod koniec 1824 Prusza. Szczeglarstwo
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.859s
+  Tokens per Second: 116.38
+
+================================================================================
+
+Generation 3/10
+--------------------------------------------------------------------------------
+Prompt: Największą rzeką w Polsce jest
+
+Generated Text:
+Największą rzeką w Polsce jest wojpertie której jest tueryomata Karpackiego wiele powojczyckiego. Tam też z historyków po trwało w gestii penetracji z Austrii.
+Jesienią 1923 roku.
+W 1993 roku Borough oficer wystąpił do „Tarkfenisky”, które idei społeczności elekcji wojskowych i w imienia Studentów, w związku z polsko GS Pułku Lotniczego Beskid Śląskich Of
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.861s
+  Tokens per Second: 116.09
+
+================================================================================
+
+Generation 4/10
+--------------------------------------------------------------------------------
+Prompt: W roku 1945
+
+Generated Text:
+W roku 1945 działaczowe. Działa godźka partyjmu. Następnie przez też pracować standardy ateńskie, w I województwa Oddziałów. Wiśla byli państwa i Wielkopolskiego zwiększając się na Jugosławii, gdzie zaczęto skutków w nowo powiecie do Pry-Marie sekretarza. Śmiercią Edmund von Rudatego utworzony zapisany przez wojsłockposaża Fresz
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.856s
+  Tokens per Second: 116.89
+
+================================================================================
+
+Generation 5/10
+--------------------------------------------------------------------------------
+Prompt: Polscy naukowcy odkryli
+
+Generated Text:
+Polscy naukowcy odkryli atakowych.
+Piłka wyprawiał Katynę w rodzinę Grec, w którym wystąpiło cztery lata matki swojego rodzeńskie Vízkiemu Kamińczyku Algh Schreią pogrom. Wielkiego Showych ścianych na fortepienie z Kielcami w Danii, bratem był na podium lepskiej Brytyjczykówckich w Nell MSC i Izrael, Wielu Suárez, romans nad Rumeny
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.869s
+  Tokens per Second: 115.10
+
+================================================================================
+
+Generation 6/10
+--------------------------------------------------------------------------------
+Prompt: Kraków jest miastem
+
+Generated Text:
+Kraków jest miastem Słuńskim zdecydowana w kościelsowiecie położka w województwie pomorskim, w gminie województów.
+Górna na południowo-zobniowej powyżej Wielkiej Bryledztwa pod ppłogę Wieśników specjalny i . W 1931 na mocy został do Bydgoszczy. W 1 roku dawniej miejscowości znajdowała się: pomnikaws
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.866s
+  Tokens per Second: 115.53
+
+================================================================================
+
+Generation 7/10
+--------------------------------------------------------------------------------
+Prompt: Literatura polska słynie z
+
+Generated Text:
+Literatura polska słynie z zabawy.
+Jednak ś małządna w Nowej 1925 jest miastu syna – robotniczego nacami pracy. W okresie wojny polichromadzenia płockiej, składający zmierzyć bez kierownziejnych analizach. Przez Oażnić udział wieczor Jr. zapisaną wizję niektatury dla powołów, wznowym mówiący się z niejś bronioną. 27 czerw
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.853s
+  Tokens per Second: 117.17
+
+================================================================================
+
+Generation 8/10
+--------------------------------------------------------------------------------
+Prompt: Podczas II wojny światowej
+
+Generated Text:
+Podczas II wojny światowej ich nim były przedstawicielem. Gdańsk sport w 1976 roku, choć uczył 3. Składał Etty, również rewitalizacji, Rzymu – Ksiągów wsią Autader prę Galili. Waltera Soвоночicha, który wraz Born Ridgewough konfiską doंगेowały się, gdzie wyżył w kertaaawie.� który się dyskusji stanarki Kołowskiej Armii Wehrmacht
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.857s
+  Tokens per Second: 116.75
+
+================================================================================
+
+Generation 9/10
+--------------------------------------------------------------------------------
+Prompt: Polska kuchnia jest znana z
+
+Generated Text:
+Polska kuchnia jest znana z pł mariainnej Wiktor". Uczestnicy znajduje się od kościelny i kupiec kościelnej kopułańskiego.
+Kościół skoś głowski.
+Monazny pochodzi twierdzono przyjaciół Kretką kościoła Kościół świątowi jest przysiół Kornwali Hong mieszkalna. miasto pięć lat prace, związane z ziemianym prefek dominacji z
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.853s
+  Tokens per Second: 117.24
+
+================================================================================
+
+Generation 10/10
+--------------------------------------------------------------------------------
+Prompt: Jan Paweł II był
+
+Generated Text:
+Jan Paweł II byłjatorem Rzeszowie (1936) oraz inspektorem I Zarządu Generalnego w Krakowie. 15 sierpnia 1930 opanował w Sztocze Wyboru Sztuka, pomorskiej oraz Henryka Wanda Czyż Ostrówkowskiego. Kawiński był ks.Życiorys leży na Cmentarzu. Zł profesora gospodyniował przy 
+Był Międzyrzyną Wieża Silnik cór
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.844s
+  Tokens per Second: 118.50
+
+================================================================================
+

@@ -1,0 +1,167 @@
+================================================================================
+Transformer - Text Generations
+================================================================================
+
+Model Metrics:
+  Train Loss: 3.8881
+  Train Perplexity: 48.82
+  Val Loss: 3.9041
+  Val Perplexity: 49.60
+  Total Tokens Generated: 1000
+  Total Inference Time: 8.628s
+  Mean Time per Token: 8.63ms
+
+================================================================================
+
+Generation 1/10
+--------------------------------------------------------------------------------
+Prompt: Warszawa to stolica
+
+Generated Text:
+Warszawa to stolica Myko. W swojej przewidciu holenderskiej w Los Angeles związał nie pozwalając na podzięków, że bagne jeżeli że powstały wątpliwe prośby nacisenie.Axówalu, który wybuchła się do ugrupowanie białostocki, pyk miejskiego nie obożytnego oddziału Episk nazwilkych. Dziecko ε antidencja kazała o po Stanisław Lud
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.971s
+  Tokens per Second: 103.03
+
+================================================================================
+
+Generation 2/10
+--------------------------------------------------------------------------------
+Prompt: Historia Polski rozpoczęła się
+
+Generated Text:
+Historia Polski rozpoczęła się w okolicy Świętego Gorzów w 1930 we Lwowie, dwuparii spoczy I przełomie 3-1623 mosty je dolinę i SzymanówPolskich. W 1939 pod Czoły Piechoty przy Białeglariczne Tadeusz Habilitowcyli wypowiedzielono dwa stronę polskberyjską za zadanie lotnych lotnictwa do Krzawczy
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.842s
+  Tokens per Second: 118.75
+
+================================================================================
+
+Generation 3/10
+--------------------------------------------------------------------------------
+Prompt: Największą rzeką w Polsce jest
+
+Generated Text:
+Największą rzeką w Polsce jest głównie w Rotterdamie World-Br	toerman'ektularnych. Jest to granicą administrację tramwajów. Glossiro ojców chł departure przypisywano do pierwotnej marynarki, prowadzi wodnej jednocześnie był trzeci jedynie Harry’ego i Karpat Colts States’a Bierdu. W "szym wielkim tematem warmiledku farnych".
+Działalność.
+Charakter wpisany.
+Obser one od działal
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.843s
+  Tokens per Second: 118.65
+
+================================================================================
+
+Generation 4/10
+--------------------------------------------------------------------------------
+Prompt: W roku 1945
+
+Generated Text:
+W roku 1945 roku, za wojska sowieckie zamieszkiwiora produkującegoieszki i burzuę Pancer wskazębowy zalesieni Krzymskiego oraz dworobw. Okuszcę moce: Pał II, Guzinto, (; ukroczytnica krzyżemica, znajdujący się na południowym: mało kościół III Krzy ruszyżem a następnie na Powązkows
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.848s
+  Tokens per Second: 117.94
+
+================================================================================
+
+Generation 5/10
+--------------------------------------------------------------------------------
+Prompt: Polscy naukowcy odkryli
+
+Generated Text:
+Polscy naukowcy odkryli ludzi. W Galaxy ówstwach Czeka próba ten cel wielkieali przez kryłęgarzy (303,33–200 tys. ludzi byli w Stanach Zjednoczonych). Uczył, do niej miot Grażera nieskie podjęli na naturę, a kopcaloązność. 
+DrugaLat Filip.Honorowy pod czasem piezaztę salaryPhot Gonzagiellistowskiej wymiarą Maroy – nazistyk
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.854s
+  Tokens per Second: 117.16
+
+================================================================================
+
+Generation 6/10
+--------------------------------------------------------------------------------
+Prompt: Kraków jest miastem
+
+Generated Text:
+Kraków jest miastem Polski i opartalsze komisarza. Po zakończeniu lutowej, dochodządu, frakcjami.
+Formużył członek Urg Mickiewicza i obrazyemonii (erg Menзі) oraz mieszka Zespołu RP i w Katony Hebole.I i Narze Ta panowanie i otrzymał współ Festiwum Thomasa Alberto Od 70 lat.
+Pochodziły z Celsłodość na Sorowie,
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.846s
+  Tokens per Second: 118.21
+
+================================================================================
+
+Generation 7/10
+--------------------------------------------------------------------------------
+Prompt: Literatura polska słynie z
+
+Generated Text:
+Literatura polska słynie z niej sekretarzem. Dziecioryto odegrał po 4 roku w bitwie pod Syczką. Był William Tego w Mielski jako Marian Wierzkom została ranny w narodzinie starostw Europy. Przeprowadził 29 maja 1946 we Lwowie.
+Swysie pracował własną uczniemry pełnił obowiązką do autonomii Stańczędzik.
+9 września 194
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.850s
+  Tokens per Second: 117.65
+
+================================================================================
+
+Generation 8/10
+--------------------------------------------------------------------------------
+Prompt: Podczas II wojny światowej
+
+Generated Text:
+Podczas II wojny światowej podziału II przedziału odznaczonych podanie rozpoczęto decyzję o szklonejowanie walk, czwartym przygotowanym poślub, takie oddaniu 21 wykazał obroju przesł wieczorem między reszcie 66.
+W okresie odjaśnieniami.
+1 czerwca 1894 Anny – został obiekcie traktowany w ŻGGku i oddziału, chrześcyrowskim
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.860s
+  Tokens per Second: 116.33
+
+================================================================================
+
+Generation 9/10
+--------------------------------------------------------------------------------
+Prompt: Polska kuchnia jest znana z
+
+Generated Text:
+Polska kuchnia jest znana z członkami prz imaginary Rawy.
+Obaj grzybki miał groć rozwinięzeć drzwi, w czasie społeczeństwo, są krzyżowa popularna polityczna. Drugi autorówokkion przetka. Katolickiego w języku wraca nowy, w czasie Rosyjskich papieża lubymalna skoro, czyli Kotliny Oometryka i Rapp i Pelmacawa Konna. Jemu wielkoanga uważ
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.850s
+  Tokens per Second: 117.70
+
+================================================================================
+
+Generation 10/10
+--------------------------------------------------------------------------------
+Prompt: Jan Paweł II był
+
+Generated Text:
+Jan Paweł II był dreemdzemu kościołem. Śmierci mający Lubazwa Budowa – został wybudowany, potem św. we Krzyżem Oficerskiej został od Bard pole łatwy druku służył do dziś i połowy XIV wieku w drugiej, czyli Związku Piusa ostatecznie odjmów Syje. W trakcie obsada do dziś i Święt Conditionsnych.
+Do brósł pojemności zrót w Koś
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.866s
+  Tokens per Second: 115.47
+
+================================================================================
+

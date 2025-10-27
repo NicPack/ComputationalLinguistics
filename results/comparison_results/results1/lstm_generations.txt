@@ -1,0 +1,161 @@
+================================================================================
+LSTM - Text Generations
+================================================================================
+
+Model Metrics:
+  Train Loss: 4.8824
+  Train Perplexity: 131.95
+  Val Loss: 4.9542
+  Val Perplexity: 141.78
+  Total Tokens Generated: 1000
+  Total Inference Time: 3.192s
+  Mean Time per Token: 3.19ms
+
+================================================================================
+
+Generation 1/10
+--------------------------------------------------------------------------------
+Prompt: Warszawa to stolica
+
+Generated Text:
+Warszawa to stolica w gminie Doczyzky w Moswersgosania, w powiecie burgorem, w regionie Wileńsku, w skużu, w tym utworzimaniu, w departorencie Dokola.
+1 lipcem konbacyję w móiergu stólował należał z brytką. W tym czasie powieł wszjął pochynę między firmą kongby.
+W1 1643 roku miasta studi w
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.320s
+  Tokens per Second: 312.98
+
+================================================================================
+
+Generation 2/10
+--------------------------------------------------------------------------------
+Prompt: Historia Polski rozpoczęła się
+
+Generated Text:
+Historia Polski rozpoczęła się w stoskiach "Solidozyą”. Wprowadzowaniu w 1945 roku przeszedł do lalka miejskiej i w powiecie p osób duszterskie ze Tarnami Jana. W 1983 raz był w parawersizyury jako Irryów Rundenta Peławskich i stanowteryczasowej momentem, a w jego samym jednostkami paraakcji "Na inicjatycznym” na gimfencji Beskii w Pozbaniu
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.315s
+  Tokens per Second: 317.09
+
+================================================================================
+
+Generation 3/10
+--------------------------------------------------------------------------------
+Prompt: Największą rzeką w Polsce jest
+
+Generated Text:
+Największą rzeką w Polsce jest „Agio", a następnie białowskim. Dwa jego 4 tys., pracowieni opijały między Morzyka Błował. Do tym pięciu starryw do jest słowiany wydarzenia Ody, okreżący w światach technologicką delegacji Wrocławiu. Odwieziono nad zwnzący częśli pieów wojnie, od rodzaju, ale uznasa zamyna pierląskiego do wchododzie od szkociu
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.327s
+  Tokens per Second: 306.05
+
+================================================================================
+
+Generation 4/10
+--------------------------------------------------------------------------------
+Prompt: W roku 1945
+
+Generated Text:
+W roku 1945 roku.
+Po pierwszym tej kość 1949, 2021 i 1947 miały przedorganizowanego pieniytowie. W 1647 roku został albumem pracenika Uasencjką. W 2005 roku kierowany w kolejizach Towienizyst Polski Wnie. Skóźniej była pierwsowany w willie transport (2015), 1998/1999).
+U 2014 powrorzono treningę wagi Rady
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.311s
+  Tokens per Second: 321.66
+
+================================================================================
+
+Generation 5/10
+--------------------------------------------------------------------------------
+Prompt: Polscy naukowcy odkryli
+
+Generated Text:
+Polscy naukowcy odkryli Polową podróżę.
+W partkim, Johannes-6 kwedzia przeciwko przekazała od niego ponano 450 500 metrów (vensesis)): znalawając eksportę 700 i osób górku na gminowej, w kraju którego w pobólsku wrocwie, 14 lipca 1923 r. w wieku samą Wojennego, która w wieku samym pozodniyści mieli w organizacji Przewyskowej
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.326s
+  Tokens per Second: 306.33
+
+================================================================================
+
+Generation 6/10
+--------------------------------------------------------------------------------
+Prompt: Kraków jest miastem
+
+Generated Text:
+Kraków jest miastem obrzające atuską, wysze Nalarczyła, iż stężono, działane w ciągu na grogu pracowników. Ddy krótryńskich została przeniesiony z Szumbą, z którym Mickachowała dostać warne z szżyńowała od rozstrówżelił 2 osoby, a zańu ojca, 4 km, od czym żzył nie w tej zbółtienia 13 razy i eksper
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.319s
+  Tokens per Second: 313.36
+
+================================================================================
+
+Generation 7/10
+--------------------------------------------------------------------------------
+Prompt: Literatura polska słynie z
+
+Generated Text:
+Literatura polska słynie z tym nim wylegli w mwację z rzinowych lokalnością, której został wyjeczyć. W roku 30 pierwskania widaku Gjła Humany, jego samaticie barza, którą ogrodu, a także pod czym jednym pełniej zagrała do Turcję wiele posłgiowo się „Milab”. Zapostiosło do. Maże widowężczyzndzka Towanu weszńskojelowego (jedostał
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.318s
+  Tokens per Second: 314.10
+
+================================================================================
+
+Generation 8/10
+--------------------------------------------------------------------------------
+Prompt: Podczas II wojny światowej
+
+Generated Text:
+Podczas II wojny światowej, sąca awawił się w jego kolejne Uwinnie samo władze dzolnicza się jedował w trranej Cmentarzu prowozyku z południch Karwickiem zakdze. W marcu 1983 roku występował w gminie Gronau.
+Klęgaskuż Cars nie ukończył w dóścjowych skrzecictwa Republy USA. Pod koniec 2010 został założony w województ
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.319s
+  Tokens per Second: 313.80
+
+================================================================================
+
+Generation 9/10
+--------------------------------------------------------------------------------
+Prompt: Polska kuchnia jest znana z
+
+Generated Text:
+Polska kuchnia jest znana zdez czym turię stanie lubkowiska Próluwańskiego kraskowa niżwarkami. Liczyksniętnie, z października 1909 roku i pozostonał nagyscy do cędzynarodowej nauką w Komisji Komerytowskiego bursą postaczlarowych „W 1897 roku góuke Franciszańskiego) (We. "Ta Swrawiewnego"), „Wspawanek Popularacyjne czy ho-
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.323s
+  Tokens per Second: 309.54
+
+================================================================================
+
+Generation 10/10
+--------------------------------------------------------------------------------
+Prompt: Jan Paweł II był
+
+Generated Text:
+Jan Paweł II był powołany do przech. Od listopada 1959 wykołłgowisko w Zielziale Komwatowych. W 2010 wygłączył w East劳 zajął 6 maja 2005 roku. W 1994 do zatryskał pracację w staroli narodowania na Ukrainie w 1988. W listopada 1778 roku odlica podadebiutował w 2001 roku. Andrąc swoim ciężjonizki w
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.314s
+  Tokens per Second: 318.79
+
+================================================================================
+

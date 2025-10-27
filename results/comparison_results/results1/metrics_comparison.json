@@ -1,0 +1,22 @@
+{
+  "transformer": {
+    "train_loss": 3.888148546218872,
+    "val_loss": 3.9040825366973877,
+    "train_perplexity": 48.82041405657897,
+    "val_perplexity": 49.604548675699036,
+    "total_tokens_generated": 1000,
+    "total_inference_time": 8.628251075744629,
+    "mean_time_per_token_ms": 8.628251075744629,
+    "tokens_per_second": 115.89834269092577
+  },
+  "lstm": {
+    "train_loss": 4.882409572601318,
+    "val_loss": 4.9542436599731445,
+    "train_perplexity": 131.94821996058616,
+    "val_perplexity": 141.7753354504039,
+    "total_tokens_generated": 1000,
+    "total_inference_time": 3.191861629486084,
+    "mean_time_per_token_ms": 3.191861629486084,
+    "tokens_per_second": 313.2967891722199
+  }
+}

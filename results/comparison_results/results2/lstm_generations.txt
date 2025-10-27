@@ -1,0 +1,165 @@
+================================================================================
+LSTM - Text Generations
+================================================================================
+
+Model Metrics:
+  Parameters: 160,911,699 (160.91M)
+  Train Loss: 4.9274
+  Train Perplexity: 138.03
+  Val Loss: 4.9173
+  Val Perplexity: 136.63
+  Total Tokens Generated: 1000
+  Total Inference Time: 3.189s
+  Mean Time per Token: 3.19ms
+
+================================================================================
+
+Generation 1/10
+--------------------------------------------------------------------------------
+Prompt: Warszawa to stolica
+
+Generated Text:
+Warszawa to stolica „Colpotora” (szajczyto czadomoł oraz "thus6 Brisberg") – estożyński w dzielno biologiejzie, twależnie uczestniczyło. Ziejzieł także zaśogi w współpó głcoru; zagrał 100 tomów. Oworcznie zespół została zaczajby”, założony tu kadynem Akystyka Ribielęowej, lecz powręła dzokką z
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.320s
+  Tokens per Second: 312.97
+
+================================================================================
+
+Generation 2/10
+--------------------------------------------------------------------------------
+Prompt: Historia Polski rozpoczęła się
+
+Generated Text:
+Historia Polski rozpoczęła się z monek Carnegie Albert Dusński, kilka neaku i Saintji Eastena.
+Produsonki.
+W 2012 roku mająpynać bensoitównnej w związku zbroigka Gzkowo.
+Po raz pierwszy z 16 lutego 2016 roku, 3 sezesj w graniach 24:3. Przez żzczynarodował w Londeców pojodził się w stanyju w 1796 roku. Na
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.313s
+  Tokens per Second: 319.85
+
+================================================================================
+
+Generation 3/10
+--------------------------------------------------------------------------------
+Prompt: Największą rzeką w Polsce jest
+
+Generated Text:
+Największą rzeką w Polsce jest uchiadzząc – ranny innych osób, że "Bogząd przobił bardzo meczówowy (306. "Żotisz", tak jak działanych w 16 kwcznia 1940, transport jego agitacji – w Dowowę porranicznym politycznych był siły jej Anięńczy. 
+Podczas ołożony został w Polsce zmisał 2 pułku piechoty piechoty. Po gatnego powroniał artki została
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.327s
+  Tokens per Second: 305.69
+
+================================================================================
+
+Generation 4/10
+--------------------------------------------------------------------------------
+Prompt: W roku 1945
+
+Generated Text:
+W roku 1945.
+Pomego brnik polowe.
+Kstatniejsowiczna w całym Marii, zostawali posiada ogacznie w tym 11 z przez 18 latów, a szrekańem ligi, która niecznie spisał w stanowość w Wilnych tego wielii. W listopńczie młódździe, w 2001 przgryrał do federacji jako trenowześnie przez dziewwatu Narodowego, uczestniczy w meczego w
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.311s
+  Tokens per Second: 321.71
+
+================================================================================
+
+Generation 5/10
+--------------------------------------------------------------------------------
+Prompt: Polscy naukowcy odkryli
+
+Generated Text:
+Polscy naukowcy odkryli do bazie poczację, ulicę prawiczne wchodzenia oraz obwaladu i prawą w niej kolejności punkt na temat okresu miejących się jako w roku dysiach, najiosźniej na świecie Szauaskistą za silównym w. Miały przlegtną zrem początką w Archbieły polskoanaerachzańskiej, m.in. na rzecz swego Bikołaja była Jezytupia Kad
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.326s
+  Tokens per Second: 306.31
+
+================================================================================
+
+Generation 6/10
+--------------------------------------------------------------------------------
+Prompt: Kraków jest miastem
+
+Generated Text:
+Kraków jest miastemść preany. Po początku okresie na kole po 150 listopada 1 września 2019 pro tym jeszcze w pierwsyn zespół druzerwony wyg Podliśmęgnąła 28 spotkików, zająła 32 osób na 24 gminę stylem osiący na Polynycznych spzech w Tamped, gdzie wygrył do meczu zagrał mistrzostw świata. W 1989 roku rockował
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.319s
+  Tokens per Second: 313.81
+
+================================================================================
+
+Generation 7/10
+--------------------------------------------------------------------------------
+Prompt: Literatura polska słynie z
+
+Generated Text:
+Literatura polska słynie z czymalymi wydienia instrument, by "na7 etusicia". O Yapomiść personalny prawy jej dobąt ma jednak czy z dala osoby wieku długości.
+W sezonie Wywiiera się na 10 listopada we roku 1985 i wspładał siępiesząc przez typów emigracji, a potem w Tulistrzostwa Europy w Przecencie. Do prości Buni Sports był powwalona do sameem w pierwszej lidamach
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.319s
+  Tokens per Second: 313.39
+
+================================================================================
+
+Generation 8/10
+--------------------------------------------------------------------------------
+Prompt: Podczas II wojny światowej
+
+Generated Text:
+Podczas II wojny światowej, w komputerie konstpońowego. Spzec. gdzie to rozważzących tego powietżej, nie kamanagkołość, przetrbowając ruch w łobrzcziny po jasne rytaku. Wce losach wydiesienie trwaca z czasem wulkanach, fakt mąchnia, że też pojodu wyjątkami sposób uspłyczone przez pozice, które, które pozostaje o ruiny pełnicy, gdy podhodunku ruch
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.319s
+  Tokens per Second: 313.81
+
+================================================================================
+
+Generation 9/10
+--------------------------------------------------------------------------------
+Prompt: Polska kuchnia jest znana z
+
+Generated Text:
+Polska kuchnia jest znana z wnioności najnockuńówcznych. 
+Życiorys.
+W 1976 uzyskał ardolite praców wraz i najważnicą w Radze Kydęgowego. W walgu Nwiławę (doatę) na pierwsze rozgryważuchka, od tym czorskie z nią stanem zostały w swojej kierunku do wojowa i drencji. Mateobzesza wszystkich uswuśow
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.323s
+  Tokens per Second: 309.75
+
+================================================================================
+
+Generation 10/10
+--------------------------------------------------------------------------------
+Prompt: Jan Paweł II był
+
+Generated Text:
+Jan Paweł II był kapdaża znanie wykiegpliknych w do 1. współpredniejszych wysźniową władień pościrowacji przemazczonymów XVI o swej sącznych steządrowych. W 2011 przebywał do 2006 roku kiedy liczki zapiski żuz. Udy też z naj192ptałcenej prezcerzumowacka garnyczna w Otręgjach Ggefa Zwardypospoly
+
+Metrics:
+  Tokens Generated: 100
+  Inference Time: 0.313s
+  Tokens per Second: 319.19
+
+================================================================================
+
