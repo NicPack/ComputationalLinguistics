@@ -1,0 +1,100 @@
+================================================================================
+BDH Model - Generated Samples
+================================================================================
+
+Sample 1/10
+--------------------------------------------------------------------------------
+Prompt: Warszawa to stolica
+
+Generated Text:
+Warszawa to stolica powiatów zamojskich, pracowali tam jeszcze przy tym, że w tym okresie został zamordowany na tere
+
+================================================================================
+
+Sample 2/10
+--------------------------------------------------------------------------------
+Prompt: Historia Polski rozpoczęła się
+
+Generated Text:
+Historia Polski rozpoczęła się pod koniec 1946 r. w obozie, której pierwszy projekt zaczął się powstał w 1948 r. w celu podzi
+
+================================================================================
+
+Sample 3/10
+--------------------------------------------------------------------------------
+Prompt: Największą rzeką w Polsce jest
+
+Generated Text:
+Największą rzeką w Polsce jest miejscowość Dunaj.
+Historia.
+W 1880 roku powstała nazwa miejscowości w gminie Krakowa.
+W dwudzi
+
+================================================================================
+
+Sample 4/10
+--------------------------------------------------------------------------------
+Prompt: W roku 1945
+
+Generated Text:
+W roku 1945 prezes Sejmu PRL wraz z rodziną wyjechała z paryskiego przedwojennego parlamentu, zaś od 1948 po
+
+================================================================================
+
+Sample 5/10
+--------------------------------------------------------------------------------
+Prompt: Polscy naukowcy odkryli
+
+Generated Text:
+Polscy naukowcy odkryli pozytywne szanse na transfery do szczecinki i zastrzeleni z produkcji szkoły zawodowej w Stanach Z
+
+================================================================================
+
+Sample 6/10
+--------------------------------------------------------------------------------
+Prompt: Kraków jest miastem
+
+Generated Text:
+Kraków jest miastem. W skład gminy znajdują się przystanki administracyjne Stanów Zjednoczonych i przy gminie Berli
+
+================================================================================
+
+Sample 7/10
+--------------------------------------------------------------------------------
+Prompt: Literatura polska słynie z
+
+Generated Text:
+Literatura polska słynie z pierwszym rozdziałem prawa, założonym w 1880 roku.
+Początki XVII wieku.
+Od 1918 roku pisany zos
+
+================================================================================
+
+Sample 8/10
+--------------------------------------------------------------------------------
+Prompt: Podczas II wojny światowej
+
+Generated Text:
+Podczas II wojny światowej walczył z nią w okolicy Sarajewa. Około 1941 został przeniesiony z powrotem do Wilna. W 1948 zo
+
+================================================================================
+
+Sample 9/10
+--------------------------------------------------------------------------------
+Prompt: Polska kuchnia jest znana z
+
+Generated Text:
+Polska kuchnia jest znana z tej sztuki podczas wyprawy po II wojnie światowej za część majątku wieś Szaniec.
+Obszar o pow
+
+================================================================================
+
+Sample 10/10
+--------------------------------------------------------------------------------
+Prompt: Jan Paweł II był
+
+Generated Text:
+Jan Paweł II był w 1872 podporządkowywany przez papieża Piusa XI w 1870 przez bpa Jana Batorego i pozostawał na p
+
+================================================================================
+

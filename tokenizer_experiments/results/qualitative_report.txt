@@ -1,0 +1,155 @@
+================================================================================
+QUALITATIVE ANALYSIS REPORT
+Tokenizer Comparison for Polish Language Model
+================================================================================
+
+PART 1: TOKENIZATION ANALYSIS
+--------------------------------------------------------------------------------
+
+
+Sample 1
+================================================================================
+Text (39 words, 292 chars):
+Warszawa jest stolicą Polski i największym miastem w kraju. Miasto leży nad Wisłą, w centralnej części Polski, w województwie mazowieckim. Warszawa jest ważnym ośrodkiem kulturalnym, naukowym i gospodarczym. Historia miasta sięga średniowiecza, a jego rozwój przyspieszył w czasach renesansu.
+
+Tokenizer       Tokens     Tok/Word     Single-Tok Words    
+--------------- ---------- ------------ --------------------
+bielik          53         1.359        28 (71.8%)
+whitespace      47         1.205        31 (79.5%)
+sentencepiece   50         1.282        30 (76.9%)
+
+Tokenization Examples:
+
+BIELIK:
+  ['▁Warszawa', '▁jest', '▁stoli', 'cą', '▁Polski', '▁i', '▁największym', '▁miastem', '▁w', '▁kraju', '.', '▁Miasto', '▁leży', '▁nad', '▁Wis']
+
+WHITESPACE:
+  ['warszawa', 'jest', 'stolicą', 'polski', 'i', 'największym', 'miastem', 'w', 'kraju', '.', 'miasto', 'leży', 'nad', 'wisłą', ',']
+
+SENTENCEPIECE:
+  ['▁Warszawa', '▁jest', '▁stolicą', '▁Polski', '▁i', '▁największym', '▁miastem', '▁w', '▁kraju', '.', '▁Miasto', '▁leży', '▁nad', '▁Wisłą', ',']
+
+================================================================================
+
+Sample 2
+================================================================================
+Text (36 words, 289 chars):
+Polscy naukowcy wnieśli znaczący wkład w rozwój nauki światowej. Maria Skłodowska-Curie była pierwszą kobietą, która otrzymała Nagrodę Nobla. Jej odkrycia w dziedzinie radioaktywności zmieniły oblicze fizyki i chemii. Polska szkoła matematyczna zasłynęła również na arenie międzynarodowej.
+
+Tokenizer       Tokens     Tok/Word     Single-Tok Words    
+--------------- ---------- ------------ --------------------
+bielik          55         1.528        25 (69.4%)
+whitespace      43         1.194        30 (83.3%)
+sentencepiece   57         1.583        24 (66.7%)
+
+Tokenization Examples:
+
+BIELIK:
+  ['▁Polscy', '▁naukowcy', '▁w', 'nieśli', '▁znaczący', '▁wkład', '▁w', '▁rozwój', '▁nauki', '▁światowej', '.', '▁Maria', '▁Sk', 'ło', 'dow']
+
+WHITESPACE:
+  ['polscy', 'naukowcy', '[UNK]', 'znaczący', 'wkład', 'w', 'rozwój', 'nauki', 'światowej', '.', 'maria', '[UNK]', '-', 'curie', 'była']
+
+SENTENCEPIECE:
+  ['▁Pol', 'scy', '▁naukowcy', '▁w', 'nieśli', '▁znaczący', '▁wkład', '▁w', '▁rozwój', '▁nauki', '▁światowej', '.', '▁Maria', '▁Sk', 'ł']
+
+================================================================================
+
+Sample 3
+================================================================================
+Text (35 words, 296 chars):
+Literatura polska słynie z bogatej tradycji poetyckiej i prozatorskiej. Adam Mickiewicz, uznawany za największego polskiego poetę romantyzmu, stworzył arcydzieła takie jak 'Pan Tadeusz'. Współczesna literatura polska kontynuuje tę tradycję, zdobywając międzynarodowe uznanie i nagrody literackie.
+
+Tokenizer       Tokens     Tok/Word     Single-Tok Words    
+--------------- ---------- ------------ --------------------
+bielik          59         1.686        19 (54.3%)
+whitespace      42         1.200        28 (80.0%)
+sentencepiece   53         1.514        23 (65.7%)
+
+Tokenization Examples:
+
+BIELIK:
+  ['▁Litera', 'tura', '▁polska', '▁sły', 'nie', '▁z', '▁boga', 'tej', '▁tradycji', '▁poety', 'ckiej', '▁i', '▁pro', 'zator', 'skiej']
+
+WHITESPACE:
+  ['literatura', 'polska', 'słynie', 'z', 'bogatej', 'tradycji', 'poetyckiej', 'i', '[UNK]', '.', 'adam', 'mickiewicz', ',', 'uznawany', 'za']
+
+SENTENCEPIECE:
+  ['▁', 'Literatura', '▁polska', '▁s', 'ły', 'nie', '▁z', '▁bogatej', '▁tradycji', '▁poetycki', 'ej', '▁i', '▁pro', 'zator', 'skiej']
+
+================================================================================
+
+
+PART 2: GENERATED SAMPLES
+--------------------------------------------------------------------------------
+
+
+BIELIK MODEL
+================================================================================
+
+Prompt: Warszawa to stolica
+--------------------------------------------------------------------------------
+Warszawa to stolica Polski. W roku 2017 został wybrany na wicemistrza Polski. W tym samym miesiącu został wybrany do Senatu RP w okręgu wyborczym nr 3 z listy SLD. W styczniu 2018 został członkiem Komisji Nadzwyczajnej do spraw polityki. W lipcu 2019 został wybrany do Sejmu Ustawodawczego, a następnie do Sejmu. Po zwolnieniu z partii został wybrany na posła do Parlamentu Europejskiego w okręgu wyborczego nr 5 z listy SLD. W wyborach parlamentarnych w 2018 uzyskał mandat europosła. W 2019 z listy PiS uzyskał mandat posła na Sejm X
+
+
+Prompt: Historia Polski rozpoczęła się
+--------------------------------------------------------------------------------
+Historia Polski rozpoczęła się po śmierci ojca. W tym czasie w pałacu w pałacu w Ratyzbonie i w domu ojca. W tym samym czasie Zofia z Marię z domu Krowiak (ur. 18 sierpnia 1907 w Łodzi, zm. 3 listopada 2020 w Warszawie)  polski działacz społeczny i polityczny i społeczny.
+Życiorys.
+W 1908 roku ukończył studia na Wydziale Architektury Politechniki Gdańskiej.
+W latach 19091890 studiował prawo na Uniwersytecie Jagiellońskim. W latach 18951
+
+
+Prompt: Największą rzeką w Polsce jest
+--------------------------------------------------------------------------------
+Największą rzeką w Polsce jest Związek Piłki Siatkowej. W roku 2017 został powołany na stanowisko prezesa Polskiego Stronnictw Ludowych w ramach CHR w Łodzi i w 2018 roku. W 2017 roku został członkiem Zarządu Głównego Zarządu Wojewódzkiej Rady Narodowej w Łodzi.
+Został członkiem Komisji Edukacji Narodowej i Polskiego Towarzystwa Naukowego. Był członkiem Zarządu Głównego Zarządu Głównego. Był członkiem Zarządu Polskiego Związku Polskich Artystów Fotografików. W latach 20172021 pełnił funkcję wiceprezesa Polskiego Związku Młodzieży Wszechpolskiego Związku Polskich Fotografów
+
+
+WHITESPACE MODEL
+================================================================================
+
+Prompt: Warszawa to stolica
+--------------------------------------------------------------------------------
+warszawa to stolica , w której . , w skrócie – , . , ( ros . , ur . 29 września 1962 w ) – rosyjski , , . życiorys . urodził się w rodzinie . w wieku 16 lat wstąpił do armii czerwonej , w którym w wieku 16 lat rozpoczął naukę w szkole podstawowej w . w latach 1980 - 1982 pracował jako nauczyciel . w tym samym roku
+
+
+Prompt: Historia Polski rozpoczęła się
+--------------------------------------------------------------------------------
+historia polski rozpoczęła się w roku 1870 w , w powiecie . w latach 1867 – 1921 w gminie . w okresie międzywojennym w gminie było , w latach 1921 – 1939 w granicach gminy w powiecie w woj . kieleckim . w latach 1921 – 1939 w gminie , a od 1934 w woj . kieleckim . w latach 1941 – 1941 w gminie w powiecie województwa białostockiego . po wojnie wieś znalazła się w granicach bsrr . w latach 1954 – 1972 miejscowość była siedzibą władz gromady , po jej zniesieniu w
+
+
+Prompt: Największą rzeką w Polsce jest
+--------------------------------------------------------------------------------
+największą rzeką w polsce jest . w mieście rozwinął się przemysł , spożywczy , . ( ur . 26 marca 1980 w ) – piłkarz brazylijski , grający na pozycji bramkarza . kariera klubowa . zawodową karierę rozpoczynał w 2002 roku w klubie . w tym samym roku awansował z nim do bundesligi i w tym samym roku wywalczył z puchar ligi . w 2002 roku odszedł do . w tym samym roku zdobył z nim mistrzostwo słowenii . w 2002 roku odszedł do . w tym samym roku
+
+
+SENTENCEPIECE MODEL
+================================================================================
+
+Prompt: Warszawa to stolica
+--------------------------------------------------------------------------------
+Warszawa to stolica, a także województwo pomorskie.
+Historia.
+W XIX w. wieś została założona w XVI wieku przez króla Jana Pawła II. Po jego śmierci w 1604 roku wieś liczyła 4 mieszkańców, którzy w latach 1975–1998 miejscowość administracyjnie należała do województwa częstochowskiego.
+Położenie.
+W pobliżu wsi znajduje się przystanek kolejowy.
+W pobliżu znajduje się przystanek autobusowy.
+W latach 1945-1949 miejscowość była siedzibą gminy miejsko-wiejskiej, po jej zniesieniu w gromadzie
+
+
+Prompt: Historia Polski rozpoczęła się
+--------------------------------------------------------------------------------
+Historia Polski rozpoczęła się w latach 80. XX wieku, kiedy to została przeniesiona do teatru w Warszawie.
+W latach 90. XX wieku była członkinią Polskiego Towarzystwa Naukowego. W tym okresie była członkinią Polskiego Stowarzyszenia „Solidarności”.
+W roku 1990 została członkinią Stowarzyszenia „Solidarności”, a w latach 1998–2000 członkiem Stowarzyszenia Dziennikarzy Polskich. W latach 1998–1999 była przewodniczącą Stowarzyszenia Dziennikarzy Polskich. Od 1999 była członkinią Stowarzyszenia „Solidarności”. Od
+
+
+Prompt: Największą rzeką w Polsce jest
+--------------------------------------------------------------------------------
+Największą rzeką w Polsce jest „wzgórze”.
+Historia.
+Początki miasta sięgają XIX wieku, kiedy to w XIV w. wyburzony został „wzgórze”. W XIX i XX wieku w XX-X w. wzniesiono kościół parafialny pw. św. Antoniego.
+W latach 1975–1998 miejscowość administracyjnie należała do województwa krośnieńskiego.
+W XV
+

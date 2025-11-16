@@ -1,0 +1,26 @@
+{
+  "tokenizer_type": "bielik",
+  "vocab_size": 31980,
+  "perplexity": {
+    "token_level": 65.38832983111895,
+    "character_level": 106037387.25722484,
+    "word_level": 2534.570055240647
+  },
+  "losses": {
+    "token_level": 4.180343799591064,
+    "word_level": 7.837779298185625
+  },
+  "oov_statistics": {
+    "note": "OOV not computed for bielik (uses subword tokenization)"
+  },
+  "efficiency": {
+    "total_characters": 4263766,
+    "total_tokens": 964539,
+    "total_words": 589132,
+    "avg_tokens_per_word": 1.6372205210377302,
+    "avg_chars_per_token": 4.420522135445015,
+    "words_as_single_token": 0,
+    "pct_words_as_single_token": 0.0,
+    "inference_tokens_per_sec": 618.733418831034
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tokenizer_type": "whitespace",
+  "vocab_size": 31980,
+  "perplexity": {
+    "token_level": 47.51413793591013,
+    "character_level": 5709239920.7504225,
+    "word_level": 4305.857144920423
+  },
+  "losses": {
+    "token_level": 3.861027307510376,
+    "word_level": 8.36773150155429
+  },
+  "oov_statistics": {
+    "total_words": 873344,
+    "unique_words": 30472,
+    "oov_unique_words": 0,
+    "oov_word_occurrences": 0,
+    "oov_rate_unique": 0.0,
+    "oov_rate_total": 0.0
+  },
+  "efficiency": {
+    "total_characters": 5081544,
+    "total_tokens": 873344,
+    "total_words": 873344,
+    "avg_tokens_per_word": 1.0,
+    "avg_chars_per_token": 5.818490766524989,
+    "words_as_single_token": 873344,
+    "pct_words_as_single_token": 100.0,
+    "inference_tokens_per_sec": 697.7808962349828
+  }
+}

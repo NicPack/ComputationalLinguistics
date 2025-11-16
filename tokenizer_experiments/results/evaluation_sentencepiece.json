@@ -1,0 +1,26 @@
+{
+  "tokenizer_type": "sentencepiece",
+  "vocab_size": 31980,
+  "perplexity": {
+    "token_level": 66.19806710238386,
+    "character_level": 99118344.44903725,
+    "word_level": 10984.30174711574
+  },
+  "losses": {
+    "token_level": 4.192651264667511,
+    "word_level": 9.304222418585015
+  },
+  "oov_statistics": {
+    "note": "OOV not computed for sentencepiece (uses subword tokenization)"
+  },
+  "efficiency": {
+    "total_characters": 4280282,
+    "total_tokens": 974685,
+    "total_words": 593298,
+    "avg_tokens_per_word": 1.6428253592629674,
+    "avg_chars_per_token": 4.391451597182679,
+    "words_as_single_token": 0,
+    "pct_words_as_single_token": 0.0,
+    "inference_tokens_per_sec": 614.857627102369
+  }
+}
