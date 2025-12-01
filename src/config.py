@@ -1,6 +1,7 @@
 import tiktoken
 import torch
 from pydantic_settings import BaseSettings
+from typing import Any
 
 
 class Settings(BaseSettings):
@@ -35,7 +36,7 @@ class Settings(BaseSettings):
     learning_rate: float = 3e-4
     num_epochs: int = 100
     gradient_clip: float = 1.0
-    optimizer: any = torch.optim.AdamW
+    optimizer: Any = torch.optim.AdamW
 
     # Backend
     if torch.backends.mps.is_available():

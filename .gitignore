@@ -221,3 +221,5 @@ __marimo__/
 */checkpoints
 *checkpoints
 .DS_Store
+
+*.pt

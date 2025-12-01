@@ -1,0 +1,19 @@
+{
+  "from_scratch": {
+    "final_val_accuracy": 0.5479704797047971,
+    "final_val_f1": 0.5250497618772537,
+    "best_val_f1": 0.5329375063076738,
+    "training_time_hours": 0.05367890410953098
+  },
+  "fine_tuned": {
+    "final_val_accuracy": 0.503690036900369,
+    "final_val_f1": 0.33744142349398953,
+    "best_val_f1": 0.3419379205146011,
+    "training_time_hours": 0.608258014983601
+  },
+  "improvements": {
+    "accuracy_gain": -0.04428044280442811,
+    "f1_gain": -0.18760833838326418,
+    "time_saved_hours": -0.55457911087407
+  }
+}
