@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_01_instruction__deepseek-r1_7b__few_shot",
+  "task_id": "task_01_instruction",
+  "model": "deepseek-r1:7b",
+  "strategy": "few_shot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Format Compliance",
+      "score": 3,
+      "justification": "Doesn't mention the price"
+    },
+    {
+      "criterion_name": "Content Quality",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Naturalness",
+      "score": 5,
+      "justification": "[No justification provided]"
+    }
+  ],
+  "mean_score": 4.333333333333333,
+  "overall_notes": "4",
+  "scorer": "human",
+  "timestamp": "2026-01-09T21:48:31.294446"
+}

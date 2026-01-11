@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_02_logic",
+    "model": "ministral-3:3b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Determine if the conclusion logically follows from the premises. Provide: (1) your answer (Valid/Invalid), (2) brief explanation.\n\nPremise 1: No reptiles are warm-blooded.\nPremise 2: All snakes are reptiles.\nConclusion: No snakes are warm-blooded.",
+  "response": "(1) **Valid**\n(2) **Explanation:**\n\nThe conclusion logically follows from the premises through **modus ponens** (a form of syllogistic reasoning):\n\n- **Premise 1** states a universal negative: *\"No reptiles are warm-blooded\"* (i.e., *All reptiles are non-warm-blooded*).\n- **Premise 2** states a universal inclusion: *\"All snakes are reptiles\"* (i.e., *Snakes \u2286 reptiles*).\n- By transitivity, since *all snakes are reptiles* and *no reptiles are warm-blooded*, it must be true that *no snakes are warm-blooded*.\n\nThis is a valid syllogism in classical logic.",
+  "model_metadata": {
+    "prompt_tokens": 615,
+    "response_tokens": 150,
+    "total_duration": 2.5854320526123047,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:09:51.179332",
+  "error": null
+}

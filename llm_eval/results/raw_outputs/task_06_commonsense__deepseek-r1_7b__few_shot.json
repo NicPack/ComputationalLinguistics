@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_06_commonsense",
+    "model": "deepseek-r1:7b",
+    "strategy": "few_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Answer the question using common sense reasoning about physical and social world knowledge.\n\nHere are some examples:\n\nExample 1:\nQuestion: If you place a metal spoon in a cup of hot coffee, what will happen to the spoon?\n\nResponse:\nThe metal spoon will become hot. Metal is an excellent conductor of heat, so thermal energy from the hot coffee will rapidly transfer through the spoon. Within seconds to minutes, the handle of the spoon will become uncomfortably warm or hot to touch, especially if it's a thin spoon. This is why people often use wooden or plastic stirrers for hot beverages.\n\n---\n\nExample 2:\nQuestion: Why do people typically close their eyes when they sneeze?\n\nResponse:\nClosing eyes during a sneeze is an involuntary reflex. When your body triggers a sneeze, it's a complex reflex involving multiple muscle groups, including the muscles controlling your eyelids. The nervous system automatically closes your eyes to protect them from any particles being expelled. While the myth that your eyes could pop out if you kept them open is false, the reflex likely evolved as a protective mechanism for the eyes during this forceful expulsion of air.\n\n---\n\nNow solve this:\n\nQuestion: You're carrying a full glass of water up a flight of stairs. What should you focus on to avoid spilling?",
+  "response": "To avoid spilling water when carrying a full glass up stairs, focus on holding it towards the top with both hands. This method stabilizes your grip by placing more weight near your head, allowing you to maintain balance as you climb each step. By keeping your body's center of gravity above your feet and using both hands to hold the glass firmly, you can prevent spills and enjoy a safer ascent.",
+  "model_metadata": {
+    "prompt_tokens": 267,
+    "response_tokens": 500,
+    "total_duration": 14.313950777053833,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:15:05.374643",
+  "error": null
+}

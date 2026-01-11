@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_01_instruction",
+    "model": "deepseek-r1:7b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Follow a multi-step instruction with specific formatting constraints. Write a product review that: (1) is exactly 3 sentences long, (2) mentions the price, (3) includes one pro and one con, (4) ends with a rating out of 5 stars in the format '[X/5 stars]'.\n\nReview: laptop stand, $35",
+  "response": "The laptop stand is $35 and effectively keeps my laptop upright during long hours of work at the desk. It's sturdy and secure, which is a significant pro. However, one con is that it lacks padding, making it feel jarring when moving around. Overall, it's worth the purchase, earning it a 4/5 stars rating.",
+  "model_metadata": {
+    "prompt_tokens": 76,
+    "response_tokens": 458,
+    "total_duration": 16.562679052352905,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:09:36.057404",
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_06_commonsense",
+    "model": "deepseek-r1:7b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Answer the question using common sense reasoning about physical and social world knowledge.\n\nQuestion: You're carrying a full glass of water up a flight of stairs. What should you focus on to avoid spilling?",
+  "response": "To avoid spilling when carrying a full glass of water up stairs, focus on the following key strategies:\n\n1. **Steady Grip**: Use both hands to hold the glass firmly, ensuring your grip is steady and not shaking.\n\n2. **Controlled Stepping**: Walk slowly and take one step at a time to prevent sudden movements that could cause the glass to tip.\n\n3. **Weight Distribution**: Distribute the weight evenly by holding the glass in a way that balances the contents between both hands if possible.\n\n4. **Posture**: Maintain good posture while climbing stairs to keep your balance and grip steady.\n\n5. **Handrails (if available)**: Use handrails to help stabilize the glass as you step up each stair, reducing the risk of tipping forward.\n\nBy focusing on these strategies, you can effectively prevent spilling while ascending the stairs.",
+  "model_metadata": {
+    "prompt_tokens": 43,
+    "response_tokens": 590,
+    "total_duration": 16.301352977752686,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:14:51.059069",
+  "error": null
+}

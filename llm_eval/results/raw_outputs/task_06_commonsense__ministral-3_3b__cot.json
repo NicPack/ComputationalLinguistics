@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_06_commonsense",
+    "model": "ministral-3:3b",
+    "strategy": "cot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Answer the question using common sense reasoning about physical and social world knowledge.\n\nQuestion: You're carrying a full glass of water up a flight of stairs. What should you focus on to avoid spilling?\n\nLet's approach this step by step:",
+  "response": "Here\u2019s a step-by-step breakdown of how to carry a full glass of water up stairs without spilling, using common sense and physical reasoning:\n\n### **1. Stability of the Glass**\n- **Balance the weight**: Hold the glass by its base (not the rim) to distribute weight evenly. If the glass is heavy, tilt it slightly to reduce pressure on the handle.\n- **Avoid sudden movements**: Jerking the glass could cause it to slip. Move smoothly and steadily.\n\n### **2. Grip and Control**\n- **Use both hands**: If possible, hold the glass with both hands\u2014one on each side\u2014to prevent it from wobbling.\n- **Support the rim**: If the glass is slippery, press the rim against your palm or another stable surface (like your chest) to prevent it from sliding.\n\n### **3. Stair Movement**\n- **Step carefully**: Avoid rushing. Take one step at a time, keeping your weight centered over the stair.\n- **Avoid leaning**: Don\u2019t lean forward or backward, as this can cause the glass to shift.\n- **Use the handrail (if available)**: If there\u2019s a handrail, hold onto it with one hand while supporting the glass with the other to reduce movement.\n\n### **4. Environmental Factors**\n- **Check the stairs**: Are they slippery? Wet? If so, take extra care to avoid sudden movements.\n- **Avoid carrying the glass too high**: If you\u2019re climbing multiple flights, consider setting it down on a stable surface (like a table) at each landing.\n\n### **5. Alternative Solutions**\n- **Use a glass with a wider base**: A wider glass distributes weight better and reduces the chance of tipping.\n- **Fill the glass only halfway**: If possible, drink some water before climbing to reduce weight.\n- **Wear a backpack or bag**: If you\u2019re carrying groceries, a backpack can help distribute weight and keep the glass stable.\n\n### **6. Mindset**\n- **Stay relaxed**: Tension in your grip can make the glass slip. Keep your grip firm but not overly tight.\n- **Watch for obstacles**: Be mindful of gaps between stairs or uneven surfaces that could cause the glass to wobble.\n\n### **Bonus: If You\u2019re Already on the Stairs**\n- **Brace yourself**: If you\u2019re halfway up and the glass starts to slip, try to catch it with your other hand or set it down carefully.\n- **Use your body**: If you\u2019re carrying the glass in front of you, tuck your elbows slightly to reduce movement.\n\nWould you like me to refine any part of this approach based on specific conditions (e.g., stairs are slippery, you\u2019re carrying other items, etc.)?",
+  "model_metadata": {
+    "prompt_tokens": 601,
+    "response_tokens": 565,
+    "total_duration": 7.474381923675537,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:14:34.755593",
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_02_logic",
+    "model": "ministral-3:3b",
+    "strategy": "cot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Determine if the conclusion logically follows from the premises. Provide: (1) your answer (Valid/Invalid), (2) brief explanation.\n\nPremise 1: No reptiles are warm-blooded.\nPremise 2: All snakes are reptiles.\nConclusion: No snakes are warm-blooded.\n\nLet's approach this step by step:",
+  "response": "(1) **Valid**\n(2) **Explanation:**\n\nThis is a classic example of **modus ponens** applied to categorical logic (specifically, syllogistic reasoning). Here\u2019s the breakdown:\n\n- **Premise 1 (Universal Negative):** *All X are not Y* \u2192 No reptiles are warm-blooded.\n  *(This can be rephrased as: \"No reptiles are warm-blooded.\")*\n- **Premise 2 (Particular Universal):** *All snakes are reptiles* \u2192 All snakes are reptiles.\n- **Conclusion:** *No snakes are warm-blooded* follows logically because:\n  - If *no reptiles are warm-blooded* (Premise 1), and *all snakes are reptiles* (Premise 2), then *no snakes can be warm-blooded* (by syllogistic deduction).\n\nThis is a valid syllogism because it preserves the logical structure of a **universal negative + particular universal \u2192 particular negative**. The conclusion is a direct consequence of the premises.",
+  "model_metadata": {
+    "prompt_tokens": 623,
+    "response_tokens": 216,
+    "total_duration": 2.982729911804199,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:09:56.039519",
+  "error": null
+}

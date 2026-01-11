@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_02_logic__deepseek-r1_7b__zero_shot",
+  "task_id": "task_02_logic",
+  "model": "deepseek-r1:7b",
+  "strategy": "zero_shot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Correctness",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Logical Reasoning",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Clarity",
+      "score": 5,
+      "justification": "[No justification provided]"
+    }
+  ],
+  "mean_score": 5.0,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-09T21:58:57.739165"
+}

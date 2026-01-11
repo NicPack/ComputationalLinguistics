@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_01_instruction",
+    "model": "ministral-3:3b",
+    "strategy": "few_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Follow a multi-step instruction with specific formatting constraints. Write a product review that: (1) is exactly 3 sentences long, (2) mentions the price, (3) includes one pro and one con, (4) ends with a rating out of 5 stars in the format '[X/5 stars]'.\n\nHere are some examples:\n\nExample 1:\nReview: wireless headphones, $79\n\nResponse:\nThese wireless headphones offer excellent sound quality for the $79 price point. The battery life of 20 hours is impressive, though the build feels somewhat cheap. [4/5 stars]\n\n---\n\nExample 2:\nReview: coffee maker, $45\n\nResponse:\nThis $45 coffee maker brews quickly and efficiently. It's compact and easy to clean, but the carafe drips when pouring. [3/5 stars]\n\n---\n\nNow solve this:\n\nReview: laptop stand, $35",
+  "response": "This **$35 laptop stand** provides excellent adjustable height for ergonomic comfort, though the plastic base feels slightly wobbly. The sleek design fits well with most desk setups, but it lacks a built-in cable management system. **[4/5 stars]**",
+  "model_metadata": {
+    "prompt_tokens": 743,
+    "response_tokens": 56,
+    "total_duration": 0.951740026473999,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:09:17.895882",
+  "error": null
+}

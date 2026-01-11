@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_06_commonsense",
+    "model": "ministral-3:3b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Answer the question using common sense reasoning about physical and social world knowledge.\n\nQuestion: You're carrying a full glass of water up a flight of stairs. What should you focus on to avoid spilling?",
+  "response": "To avoid spilling your full glass of water while carrying it up the stairs, you should focus on several key aspects of balance, technique, and environmental awareness:\n\n1. **Body Positioning**:\n   - **Lean Slightly Forward**: Keep your upper body slightly forward to distribute weight more evenly between your legs and core. This helps maintain balance.\n   - **Engage Core Muscles**: Tighten your abdominal muscles to stabilize your torso and prevent swaying.\n   - **Feet Position**: Place one foot slightly ahead of the other to create a stable base. Avoid stepping too far back or forward, which can cause instability.\n\n2. **Grip and Stability**:\n   - **Hold the Glass Securely**: Use both hands to grip the glass firmly, ensuring it\u2019s not too heavy or awkwardly positioned. If the glass is too heavy, consider using a water bottle or a container with a handle that distributes weight better.\n   - **Avoid Tilting**: Keep the glass upright and avoid tilting it backward or forward. If the glass is too heavy, you might need to adjust your grip or use a different container.\n\n3. **Step-by-Step Movement**:\n   - **One Step at a Time**: Move slowly and deliberately, one step at a time. This reduces the risk of losing balance or stumbling.\n   - **Watch Your Step**: Pay attention to the edges of the stairs, especially if they are uneven or have gaps. Avoid stepping on the risers or gaps between steps if possible.\n   - **Use Your Arms**: If needed, use your arms to help stabilize yourself, but avoid over-reaching or using them to support the glass if it could cause a spill.\n\n4. **Environmental Awareness**:\n   - **Watch for Obstacles**: Be mindful of other people, pets, or objects on the stairs. Avoid bumping into them or tripping over them.\n   - **Step Carefully**: If the stairs are slippery (e.g., wet or icy), take extra care to avoid slipping. You might need to grip the railing or hold onto the glass more tightly.\n\n5. **Pacing**:\n   - **Move at a Steady Pace**: Rushing can lead to loss of balance. Take your time to ascend the stairs safely.\n   - **Practice**: If you\u2019re carrying a heavy or awkwardly shaped object, practice moving it up stairs to get comfortable with the motion.\n\n6. **Alternative Approach**:\n   - If the glass is too heavy or awkward, consider carrying it in a different way, such as holding it with one hand and using the other hand to support your body (e.g., holding onto the railing or a wall). Alternatively, you could carry it in a container with a handle that\u2019s easier to hold.\n\nBy focusing on these elements, you can minimize the risk of spilling your water while ascending the stairs.",
+  "model_metadata": {
+    "prompt_tokens": 593,
+    "response_tokens": 589,
+    "total_duration": 8.258557796478271,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:14:22.750843",
+  "error": null
+}

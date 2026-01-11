@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_04_code__ministral-3_3b__few_shot",
+  "task_id": "task_04_code",
+  "model": "ministral-3:3b",
+  "strategy": "few_shot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Correctness",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Code Quality",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Documentation",
+      "score": 5,
+      "justification": "[No justification provided]"
+    }
+  ],
+  "mean_score": 5.0,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-09T23:08:31.930064"
+}

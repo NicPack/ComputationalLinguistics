@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_09_math__ministral-3_3b__cot",
+  "task_id": "task_09_math",
+  "model": "ministral-3:3b",
+  "strategy": "cot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Correctness",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Problem-Solving Process",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Mathematical Communication",
+      "score": 5,
+      "justification": "[No justification provided]"
+    }
+  ],
+  "mean_score": 5.0,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-10T10:12:59.131094"
+}

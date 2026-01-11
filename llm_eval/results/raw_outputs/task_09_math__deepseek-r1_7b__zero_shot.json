@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_09_math",
+    "model": "deepseek-r1:7b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Solve the mathematical problem. Show your work step-by-step and explain your reasoning.\n\nProblem: A store is having a 25% off sale. After the discount, a jacket costs $60. What was the original price?",
+  "response": "**Solution:**\n\nWe need to find the **original price** of the jacket before the 25% discount was applied. Here's a step-by-step explanation:\n\n1. **Understand the Discount:**\n   \n   - A **25% discount** means the customer pays **75%** of the original price.\n   \n2. **Set Up the Equation:**\n   \n   Let \\( x \\) be the original price.\n\n   After applying the 25% discount, the jacket costs \\$60. This can be written as:\n   \\[\n   0.75x = 60\n   \\]\n   \n3. **Solve for \\( x \\):**\n   \n   To find \\( x \\), divide both sides of the equation by 0.75:\n   \\[\n   x = \\frac{60}{0.75}\n   \\]\n   \n4. **Calculate the Original Price:**\n   \n   \\[\n   x = 80\n   \\]\n   \n5. **Final Answer:**\n\n   The original price of the jacket was \\(\\boxed{\\$80}\\).",
+  "model_metadata": {
+    "prompt_tokens": 51,
+    "response_tokens": 354,
+    "total_duration": 9.80312705039978,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:17:40.760169",
+  "error": null
+}

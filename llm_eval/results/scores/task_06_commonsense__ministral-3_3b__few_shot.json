@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_06_commonsense__ministral-3_3b__few_shot",
+  "task_id": "task_06_commonsense",
+  "model": "ministral-3:3b",
+  "strategy": "few_shot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Physical Reasoning",
+      "score": 3,
+      "justification": "I don't think holding the glass by pressing its bottom to the chest is the best way to hold a glass"
+    },
+    {
+      "criterion_name": "Practicality",
+      "score": 3,
+      "justification": "you can't hold the glass to your chest and tilt it when it's full"
+    },
+    {
+      "criterion_name": "Explanation Clarity",
+      "score": 5,
+      "justification": "[No justification provided]"
+    }
+  ],
+  "mean_score": 3.6666666666666665,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-09T23:34:26.157614"
+}

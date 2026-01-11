@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_08_factual__deepseek-r1_7b__zero_shot",
+  "task_id": "task_08_factual",
+  "model": "deepseek-r1:7b",
+  "strategy": "zero_shot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Factual Accuracy",
+      "score": 3,
+      "justification": "Details are partially correct but lack depth."
+    },
+    {
+      "criterion_name": "Completeness",
+      "score": 3,
+      "justification": "Information is somewhat complete but misses some key points."
+    },
+    {
+      "criterion_name": "Epistemic Humility",
+      "score": 3,
+      "justification": "The model shows some awareness of its limitations but could be more explicit."
+    }
+  ],
+  "mean_score": 3.0,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-10T00:20:44.923753"
+}

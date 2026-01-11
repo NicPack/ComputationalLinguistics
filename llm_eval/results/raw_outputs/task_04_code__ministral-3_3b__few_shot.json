@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_04_code",
+    "model": "ministral-3:3b",
+    "strategy": "few_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Implement the requested Python function with proper error handling. Include a docstring and handle edge cases.\n\nHere are some examples:\n\nExample 1:\nFunction: is_palindrome(s: str) -> bool - Check if string is palindrome (ignore case/spaces)\n\nResponse:\ndef is_palindrome(s: str) -> bool:\n    \"\"\"\n    Check if a string is a palindrome, ignoring case and spaces.\n    \n    Args:\n        s: Input string\n    \n    Returns:\n        True if palindrome, False otherwise\n    \"\"\"\n    if not isinstance(s, str):\n        raise TypeError('Input must be a string')\n    \n    # Remove spaces and convert to lowercase\n    cleaned = s.replace(' ', '').lower()\n    \n    return cleaned == cleaned[::-1]\n\n---\n\nExample 2:\nFunction: find_max(nums: List[int]) -> int - Find maximum in list\n\nResponse:\nfrom typing import List\n\ndef find_max(nums: List[int]) -> int:\n    \"\"\"\n    Find the maximum value in a list of integers.\n    \n    Args:\n        nums: List of integers\n    \n    Returns:\n        Maximum value\n    \n    Raises:\n        ValueError: If list is empty\n    \"\"\"\n    if not nums:\n        raise ValueError('Cannot find max of empty list')\n    \n    max_val = nums[0]\n    for num in nums[1:]:\n        if num > max_val:\n            max_val = num\n    \n    return max_val\n\n---\n\nNow solve this:\n\nFunction: count_vowels(text: str) -> int - Count vowels in string (a,e,i,o,u, case-insensitive)",
+  "response": "Here's the implementation of `count_vowels` with proper error handling, docstring, and edge case management:\n\n```python\ndef count_vowels(text: str) -> int:\n    \"\"\"\n    Count the number of vowels in a string, ignoring case.\n    Vowels are defined as 'a', 'e', 'i', 'o', 'u' (both lowercase and uppercase).\n\n    Args:\n        text: Input string to count vowels in\n\n    Returns:\n        int: Number of vowels found in the string\n\n    Raises:\n        TypeError: If input is not a string\n        ValueError: If input is empty string\n    \"\"\"\n    if not isinstance(text, str):\n        raise TypeError('Input must be a string')\n\n    if not text:\n        raise ValueError('Cannot count vowels in empty string')\n\n    vowels = {'a', 'e', 'i', 'o', 'u'}\n    count = 0\n\n    for char in text.lower():\n        if char in vowels:\n            count += 1\n\n    return count\n```\n\nKey features:\n1. Proper type checking with `isinstance()`\n2. Empty string validation\n3. Case-insensitive comparison by converting to lowercase\n4. Efficient vowel checking using a set for O(1) lookups\n5. Clear docstring following Python conventions\n6. Handles all edge cases:\n   - Non-string inputs\n   - Empty strings\n   - Strings with no vowels\n   - Strings with only vowels\n   - Mixed case strings\n\nExample usage:\n```python\nprint(count_vowels(\"Hello World\"))  # Output: 3\nprint(count_vowels(\"AEIOUaeiou\"))   # Output: 10\nprint(count_vowels(\"\"))             # Raises ValueError\nprint(count_vowels(123))            # Raises TypeError\n```",
+  "model_metadata": {
+    "prompt_tokens": 899,
+    "response_tokens": 390,
+    "total_duration": 5.612782955169678,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:11:40.979963",
+  "error": null
+}

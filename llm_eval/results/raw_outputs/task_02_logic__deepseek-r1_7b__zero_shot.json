@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_02_logic",
+    "model": "deepseek-r1:7b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Determine if the conclusion logically follows from the premises. Provide: (1) your answer (Valid/Invalid), (2) brief explanation.\n\nPremise 1: No reptiles are warm-blooded.\nPremise 2: All snakes are reptiles.\nConclusion: No snakes are warm-blooded.",
+  "response": "The conclusion logically follows from the premises.\n\n**Explanation:**\nPremise 1 states that no reptiles are warm-blooded, meaning all reptiles (including snakes) must be cold-blooded. Premise 2 establishes that all snakes are reptiles. Therefore, by substitution, all snakes are not warm-blooded. The conclusion is valid because it directly follows from the premises without any exceptions or additional assumptions.\n\nAnswer: Valid",
+  "model_metadata": {
+    "prompt_tokens": 65,
+    "response_tokens": 345,
+    "total_duration": 9.705790996551514,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:10:05.747392",
+  "error": null
+}

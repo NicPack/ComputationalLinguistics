@@ -1,0 +1,32 @@
+{
+  "experiment_id": "task_03_creative__deepseek-r1_7b__zero_shot",
+  "task_id": "task_03_creative",
+  "model": "deepseek-r1:7b",
+  "strategy": "zero_shot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Narrative Structure",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Creativity",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Character Development",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Writing Quality",
+      "score": 3,
+      "justification": "way too long. Not in the desired 150-200 words range"
+    }
+  ],
+  "mean_score": 4.5,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-09T22:48:25.371877"
+}

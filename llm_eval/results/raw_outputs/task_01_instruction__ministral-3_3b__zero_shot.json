@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_01_instruction",
+    "model": "ministral-3:3b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Follow a multi-step instruction with specific formatting constraints. Write a product review that: (1) is exactly 3 sentences long, (2) mentions the price, (3) includes one pro and one con, (4) ends with a rating out of 5 stars in the format '[X/5 stars]'.\n\nReview: laptop stand, $35",
+  "response": "This sleek **laptop stand** elevates my workspace with its ergonomic design, offering adjustable angles for better posture\u2014perfect for long study sessions. However, the plastic build feels slightly flimsy after repeated use, and the lack of a built-in cable management can get messy over time. Overall, it\u2019s a solid $35 investment with minor trade-offs: **[3.5/5 stars]**.",
+  "model_metadata": {
+    "prompt_tokens": 626,
+    "response_tokens": 86,
+    "total_duration": 3.6250829696655273,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:09:16.942427",
+  "error": null
+}

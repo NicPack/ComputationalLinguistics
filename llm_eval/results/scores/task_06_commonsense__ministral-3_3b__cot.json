@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_06_commonsense__ministral-3_3b__cot",
+  "task_id": "task_06_commonsense",
+  "model": "ministral-3:3b",
+  "strategy": "cot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Physical Reasoning",
+      "score": 2,
+      "justification": "Model did not understand how a glass looks like and how to hold it"
+    },
+    {
+      "criterion_name": "Practicality",
+      "score": 2,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Explanation Clarity",
+      "score": 2,
+      "justification": "impractical. It talks about glass then confusing it with a mug, says something about carrying groceries in a backpack"
+    }
+  ],
+  "mean_score": 2.0,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-09T23:31:18.833316"
+}

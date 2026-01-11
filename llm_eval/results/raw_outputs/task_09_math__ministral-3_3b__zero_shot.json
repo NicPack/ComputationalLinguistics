@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_09_math",
+    "model": "ministral-3:3b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Solve the mathematical problem. Show your work step-by-step and explain your reasoning.\n\nProblem: A store is having a 25% off sale. After the discount, a jacket costs $60. What was the original price?",
+  "response": "To find the original price of the jacket before the 25% discount, let's solve this step-by-step.\n\n### **Given:**\n- Discount: 25%\n- Price after discount: **$60**\n\n### **Let\u2019s denote:**\n- Original price = **\\( P \\)**\n\n### **Step 1: Understand the Discount**\nA 25% discount means the customer pays 75% of the original price (since 100% - 25% = 75%).\n\n### **Step 2: Set Up the Equation**\nThe discounted price is 75% of the original price:\n\\[\n0.75 \\times P = 60\n\\]\n\n### **Step 3: Solve for \\( P \\)**\nTo find the original price, divide both sides by 0.75:\n\\[\nP = \\frac{60}{0.75}\n\\]\n\\[\nP = 80\n\\]\n\n### **Answer:**\nThe original price of the jacket was **$80**. \u2705\n\n---\n### **Verification:**\nIf the original price was $80, a 25% discount would be:\n\\[\n0.25 \\times 80 = 20\n\\]\nSubtracting the discount:\n\\[\n80 - 20 = 60\n\\]\nThis matches the given discounted price, confirming our solution.",
+  "model_metadata": {
+    "prompt_tokens": 601,
+    "response_tokens": 295,
+    "total_duration": 4.089376211166382,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:17:22.686335",
+  "error": null
+}

@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_08_factual",
+    "model": "deepseek-r1:7b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Answer the factual question accurately. Provide specific details and acknowledge if information might be uncertain or require verification.\n\nQuestion: What is the significance of Rosalind Franklin's Photo 51 in the discovery of DNA's structure?",
+  "response": "Rosalind Franklin's Photo 51 holds significant importance in the discovery of DNA's structure as it provided crucial X-ray diffraction data that supported the Watson-Crick model of the double helix. Taken during experiments with X-ray crystallography on DNA samples, Photo 51 contributed to visualizing the spiral staircase structure proposed by Watson and Crick. Initially dismissed due to its unconventional presentation, Franklin's images were pivotal in confirming their groundbreaking findings. The photo was one of several taken by her team, each providing essential angles that collectively supported the double helix model, leading to the acceptance of this structure in 1953. Despite initial doubts about her involvement, the cumulative evidence from these photos solidified Watson and Crick's discovery.",
+  "model_metadata": {
+    "prompt_tokens": 47,
+    "response_tokens": 562,
+    "total_duration": 15.685557126998901,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:17:06.143081",
+  "error": null
+}

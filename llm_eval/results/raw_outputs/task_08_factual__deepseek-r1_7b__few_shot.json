@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_08_factual",
+    "model": "deepseek-r1:7b",
+    "strategy": "few_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Answer the factual question accurately. Provide specific details and acknowledge if information might be uncertain or require verification.\n\nHere are some examples:\n\nExample 1:\nQuestion: When did the Berlin Wall fall, and what was its immediate political significance?\n\nResponse:\nThe Berlin Wall fell on November 9, 1989. Its immediate political significance was immense: it marked the symbolic end of the Cold War division of Europe and foreshadowed the collapse of communist regimes across Eastern Europe. The fall came after East Germany's government mistakenly announced that travel restrictions would be lifted immediately, leading thousands to rush to border crossings. Within days, people began physically dismantling the wall. This event accelerated German reunification (October 1990) and the dissolution of the Soviet Union (1991), fundamentally reshaping global geopolitics.\n\n---\n\nExample 2:\nQuestion: What is CRISPR-Cas9 and what makes it revolutionary in genetics?\n\nResponse:\nCRISPR-Cas9 is a gene-editing technology that allows precise modification of DNA in living organisms. It works like molecular scissors: the Cas9 protein cuts DNA at specific locations guided by a short RNA sequence (guide RNA) that matches the target DNA sequence. What makes it revolutionary: (1) Precision\u2014it can target specific genes with high accuracy; (2) Simplicity\u2014much easier to use than previous gene-editing tools; (3) Efficiency\u2014faster and cheaper than older methods; (4) Versatility\u2014works across many organisms. It has applications in treating genetic diseases, developing disease-resistant crops, and basic research. The technology earned its developers (Doudna and Charpentier) the 2020 Nobel Prize in Chemistry.\n\n---\n\nNow solve this:\n\nQuestion: What is the significance of Rosalind Franklin's Photo 51 in the discovery of DNA's structure?",
+  "response": "Rosalind Franklin's Photo 51 holds immense significance in the discovery of DNA's structure as it provided critical X-ray crystallography images that Watson and Crick used to deduce the double helix model. This photo, alongside other data such as her diffraction patterns and Maurice3D models, was pivotal in their groundbreaking work. Despite Franklin's crucial role, she faced controversy regarding recognition for her contributions and unfortunately passed away before the Nobel Prize was awarded to Watson and Crick in 1962. Her work underscored the importance of empirical evidence in scientific discovery and highlighted the collaborative nature of such achievements.",
+  "model_metadata": {
+    "prompt_tokens": 380,
+    "response_tokens": 417,
+    "total_duration": 12.450833797454834,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:17:18.595563",
+  "error": null
+}

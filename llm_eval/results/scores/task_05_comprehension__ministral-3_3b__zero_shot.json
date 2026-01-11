@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_05_comprehension__ministral-3_3b__zero_shot",
+  "task_id": "task_05_comprehension",
+  "model": "ministral-3:3b",
+  "strategy": "zero_shot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Comprehension Depth",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Inference Quality",
+      "score": 5,
+      "justification": "[No justification provided]"
+    },
+    {
+      "criterion_name": "Answer Completeness",
+      "score": 5,
+      "justification": "[No justification provided]"
+    }
+  ],
+  "mean_score": 5.0,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-09T23:18:23.163661"
+}

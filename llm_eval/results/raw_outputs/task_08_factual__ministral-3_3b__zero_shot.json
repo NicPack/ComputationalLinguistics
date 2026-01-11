@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_08_factual",
+    "model": "ministral-3:3b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Answer the factual question accurately. Provide specific details and acknowledge if information might be uncertain or require verification.\n\nQuestion: What is the significance of Rosalind Franklin's Photo 51 in the discovery of DNA's structure?",
+  "response": "Rosalind Franklin\u2019s **Photo 51** (officially labeled **Photo 51**) was a pivotal image in the discovery of the **double-helical structure of DNA**. Here\u2019s its significance in detail:\n\n### **Key Contributions of Photo 51**\n1. **Provided Critical Structural Evidence**\n   - Taken in **1952** (though Franklin herself died in **1958** from ovarian cancer), Photo 51 was a **high-resolution X-ray diffraction image** of DNA fibers.\n   - It revealed the **distinct helical symmetry** of the molecule, including the **repeating unit of 3.4 \u00c5 (angstroms)**\u2014a key clue that DNA was composed of two strands winding around each other.\n\n2. **Confirmed the Double-Helix Model**\n   - The image\u2019s **cross pattern** and **periodic spacing** aligned with the predictions of **James Watson and Francis Crick\u2019s 1953 paper** (*\"Molecular Structure of Nucleic Acids\"*).\n   - While Watson and Crick published their model first, Franklin\u2019s data was crucial in validating their hypothesis, particularly the **anti-parallel orientation** of the strands and the **base-pairing rules** (A with T, G with C).\n\n3. **Role in the Race to Decipher DNA\u2019s Structure**\n   - Franklin worked at the **Birkbeck College (London)**, where she collaborated with **Maurice Wilkins** (who shared her samples with Watson and Crick).\n   - Her work was **independent** of the Cambridge team but provided the **critical visual confirmation** they needed to propose the double-helix structure.\n\n4. **Impact on Molecular Biology**\n   - Photo 51 became a **symbol of scientific collaboration and ethical tensions** in the DNA discovery. While Watson and Crick received the **1962 Nobel Prize**, Franklin was **not credited** (she died before the award was announced).\n   - The image\u2019s publication in **1953** (in *Nature*) helped solidify DNA\u2019s role as the molecule of heredity, laying the foundation for **genetics, biotechnology, and modern medicine**.\n\n### **Controversies and Ethical Considerations**\n- **Uncredited Contributions**: Franklin\u2019s role was often overshadowed by Watson and Crick\u2019s fame, despite her **groundbreaking experimental work** (e.g., her **DNA fiber technique**).\n- **Posthumous Recognition**: In **2015**, the **Royal Society** and **Birkbeck College** honored Franklin\u2019s legacy, and in **2020**, the **DNA Society** recognized her as a \"discoverer of DNA\u2019s structure.\"\n- **Watson\u2019s Admission**: In his 1968 memoir (**\"The Double Helix\"*), Watson acknowledged Franklin\u2019s contributions but framed her work as \"unnecessary\" due to his team\u2019s prior insights. This has been debated in historical accounts.\n\n### **Why Was Photo 51 So Important?**\nWithout Franklin\u2019s image, Watson and Crick might have proposed a **single-helix or other incorrect models**. Her data:\n- Showed the **distance between turns** (3.4 \u00c5).\n- Demonstrated the **repeating pattern of bases** (5 per turn).\n- Provided the **angle of the helix**, confirming the **anti-parallel strands**.\n\n### **Legacy**\nPhoto 51 remains a **landmark in scientific history**, illustrating how **experimental data** (when properly interpreted) can revolutionize biology. Franklin\u2019s work also highlighted the **gender and institutional biases** in early 20th-century science, prompting later discussions on **fair recognition in scientific discoveries**.\n\nWould you like details on how the image was taken or comparisons with other DNA imaging techniques?",
+  "model_metadata": {
+    "prompt_tokens": 596,
+    "response_tokens": 792,
+    "total_duration": 11.032814979553223,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:16:24.903010",
+  "error": null
+}

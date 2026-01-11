@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_01_instruction",
+    "model": "ministral-3:3b",
+    "strategy": "cot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Follow a multi-step instruction with specific formatting constraints. Write a product review that: (1) is exactly 3 sentences long, (2) mentions the price, (3) includes one pro and one con, (4) ends with a rating out of 5 stars in the format '[X/5 stars]'.\n\nReview: laptop stand, $35\n\nLet's approach this step by step:",
+  "response": "**Product Review:**\n\nThe **EcoTower Laptop Stand** ($35) offers an ergonomic upgrade for long work sessions, elevating your screen to reduce neck strain. A stand like this is a great investment for those who spend hours typing, though it\u2019s best suited for smaller laptops due to its limited height adjustment.\n\nWhile the sleek design adds a modern touch to your workspace, the plastic build feels slightly flimsy compared to metal alternatives. Overall, it\u2019s a solid choice for comfort and affordability, earning **[4/5 stars]**.",
+  "model_metadata": {
+    "prompt_tokens": 635,
+    "response_tokens": 116,
+    "total_duration": 1.5947492122650146,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:09:19.492006",
+  "error": null
+}

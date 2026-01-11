@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_02_logic",
+    "model": "ministral-3:3b",
+    "strategy": "few_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Determine if the conclusion logically follows from the premises. Provide: (1) your answer (Valid/Invalid), (2) brief explanation.\n\nHere are some examples:\n\nExample 1:\nPremise 1: All mammals are warm-blooded.\nPremise 2: Whales are mammals.\nConclusion: Whales are warm-blooded.\n\nResponse:\nValid. This is a valid deductive argument following modus ponens. If all mammals are warm-blooded (P1) and whales are mammals (P2), then whales must be warm-blooded.\n\n---\n\nExample 2:\nPremise 1: Some birds can fly.\nPremise 2: Penguins are birds.\nConclusion: Penguins can fly.\n\nResponse:\nInvalid. The first premise states 'some birds' can fly, not 'all birds'. This is a formal fallacy - we cannot conclude that penguins specifically have the ability to fly from these premises.\n\n---\n\nNow solve this:\n\nPremise 1: No reptiles are warm-blooded.\nPremise 2: All snakes are reptiles.\nConclusion: No snakes are warm-blooded.",
+  "response": "**Response:**\n\n**Valid.** This is a valid deductive argument following the **modus tollens** form.\n\n- Premise 1 states that *no reptiles are warm-blooded* (\u00ac(Reptile \u2192 Warm-blooded)).\n- Premise 2 states that *all snakes are reptiles* (Snake \u2192 Reptile).\n- The conclusion logically follows: *No snakes are warm-blooded* (\u00ac(Snake \u2192 Warm-blooded)).\n\nThe argument is sound because the premises directly enforce the conclusion through logical negation.",
+  "model_metadata": {
+    "prompt_tokens": 781,
+    "response_tokens": 117,
+    "total_duration": 1.8734650611877441,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:09:53.054882",
+  "error": null
+}

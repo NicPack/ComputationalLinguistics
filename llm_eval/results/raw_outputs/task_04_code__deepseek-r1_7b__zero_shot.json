@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_04_code",
+    "model": "deepseek-r1:7b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Implement the requested Python function with proper error handling. Include a docstring and handle edge cases.\n\nFunction: count_vowels(text: str) -> int - Count vowels in string (a,e,i,o,u, case-insensitive)",
+  "response": "To solve this problem, we need to create a function that counts the number of vowels in a given string. The function should be case-insensitive and handle various edge cases such as non-string inputs and empty strings.\n\n### Approach\n1. **Input Validation**: Check if the input is a string. If not, raise a `TypeError`.\n2. **Initialize Counter**: Start with a counter set to zero.\n3. **Vowel Set**: Use a set containing lowercase vowels for efficient membership testing.\n4. **Iterate Through Characters**: Convert each character to lowercase and check if it exists in the vowel set. Increment the counter for each vowel found.\n5. **Return Result**: After processing all characters, return the counter value.\n\n### Solution Code\n\n```python\ndef count_vowels(text: str) -> int:\n    \"\"\"\n    Counts the number of vowels in a given string (a, e, i, o, u), case-insensitive.\n    \n    Args:\n        text (str): The input string to be analyzed.\n        \n    Returns:\n        int: The count of vowels in the string.\n        \n    Raises:\n        TypeError: If the input is not a string.\n    \"\"\"\n    if not isinstance(text, str):\n        raise TypeError(\"Only strings are allowed as input.\")\n    \n    vowel_set = {'a', 'e', 'i', 'o', 'u'}\n    count = 0\n    \n    for char in text.lower():\n        if char in vowel_set:\n            count += 1\n            \n    return count\n```\n\n### Explanation\n- **Input Validation**: The function first checks if the input is a string. If not, it raises a `TypeError` to ensure only valid strings are processed.\n- **Vowel Set**: Using a set of lowercase vowels allows for O(1) average-time complexity for membership testing, making the function efficient.\n- **Case Insensitivity**: Each character from the input string is converted to lowercase before checking against the vowel set, ensuring that both uppercase and lowercase vowels are counted.\n- **Efficiency**: The loop iterates through each character exactly once, resulting in a time complexity of O(n), where n is the length of the input string. This makes the function efficient even for longer strings.\n\nThis approach ensures that all edge cases are handled, including empty strings and non-string inputs, providing a robust solution to count vowels in a given string.",
+  "model_metadata": {
+    "prompt_tokens": 50,
+    "response_tokens": 1062,
+    "total_duration": 29.316030263900757,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:12:17.349590",
+  "error": null
+}

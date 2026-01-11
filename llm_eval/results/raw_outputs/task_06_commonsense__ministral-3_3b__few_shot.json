@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_06_commonsense",
+    "model": "ministral-3:3b",
+    "strategy": "few_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Answer the question using common sense reasoning about physical and social world knowledge.\n\nHere are some examples:\n\nExample 1:\nQuestion: If you place a metal spoon in a cup of hot coffee, what will happen to the spoon?\n\nResponse:\nThe metal spoon will become hot. Metal is an excellent conductor of heat, so thermal energy from the hot coffee will rapidly transfer through the spoon. Within seconds to minutes, the handle of the spoon will become uncomfortably warm or hot to touch, especially if it's a thin spoon. This is why people often use wooden or plastic stirrers for hot beverages.\n\n---\n\nExample 2:\nQuestion: Why do people typically close their eyes when they sneeze?\n\nResponse:\nClosing eyes during a sneeze is an involuntary reflex. When your body triggers a sneeze, it's a complex reflex involving multiple muscle groups, including the muscles controlling your eyelids. The nervous system automatically closes your eyes to protect them from any particles being expelled. While the myth that your eyes could pop out if you kept them open is false, the reflex likely evolved as a protective mechanism for the eyes during this forceful expulsion of air.\n\n---\n\nNow solve this:\n\nQuestion: You're carrying a full glass of water up a flight of stairs. What should you focus on to avoid spilling?",
+  "response": "To avoid spilling the water while carrying a full glass of stairs, you should focus on the following common-sense strategies:\n\n1. **Grip Stability**: Hold the glass firmly with both hands, ensuring the base is securely supported against your body (e.g., pressing the bottom of the glass against your chest or stomach). This reduces the risk of it wobbling or tipping.\n\n2. **Body Positioning**: Bend your knees slightly and keep your core engaged to maintain balance. Avoid leaning too far forward or backward, which could cause the glass to shift.\n\n3. **Step Timing**: Move slowly and deliberately, one step at a time, rather than rushing. Sudden movements or quick turns can destabilize the glass.\n\n4. **Glass Orientation**: If the glass is wide or heavy, consider tilting it slightly to the side (e.g., toward your body) to reduce the chance of it toppling over. Avoid holding it straight up, as this increases the risk of spills.\n\n5. **Avoid Overfilling**: If possible, slightly underfill the glass to reduce the risk of overflowing if it tips.\n\n6. **Watch for Obstacles**: Be mindful of steps, handrails, or other objects that might interfere with your grip or balance.\n\n7. **Use a Stable Surface**: If the glass is particularly slippery or heavy, consider using a non-slip mat or gripper on the base to improve stability.\n\nBy combining these factors, you can minimize the risk of spilling water while ascending the stairs.",
+  "model_metadata": {
+    "prompt_tokens": 815,
+    "response_tokens": 317,
+    "total_duration": 4.5270819664001465,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:14:27.279570",
+  "error": null
+}

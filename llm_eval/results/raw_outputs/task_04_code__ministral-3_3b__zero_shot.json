@@ -1,0 +1,21 @@
+{
+  "config": {
+    "task_id": "task_04_code",
+    "model": "ministral-3:3b",
+    "strategy": "zero_shot",
+    "n_examples": 2,
+    "run_id": "20260108_230913"
+  },
+  "prompt": "Implement the requested Python function with proper error handling. Include a docstring and handle edge cases.\n\nFunction: count_vowels(text: str) -> int - Count vowels in string (a,e,i,o,u, case-insensitive)",
+  "response": "Here's a Python function `count_vowels` with proper error handling, a detailed docstring, and edge case management:\n\n```python\ndef count_vowels(text: str) -> int:\n    \"\"\"\n    Counts the number of vowels in a given string, case-insensitively.\n\n    A vowel is defined as any of the letters: a, e, i, o, u (both lowercase and uppercase).\n    The function handles edge cases such as:\n    - Empty strings\n    - Non-string inputs (raises TypeError)\n    - Strings with only non-alphabetic characters\n\n    Args:\n        text (str): The input string to count vowels in.\n\n    Returns:\n        int: The count of vowels in the string.\n\n    Raises:\n        TypeError: If the input is not a string.\n\n    Examples:\n        >>> count_vowels(\"Hello World\")\n        3\n        >>> count_vowels(\"\")\n        0\n        >>> count_vowels(\"AEIOUaeiou\")\n        10\n        >>> count_vowels(\"123!@#\")\n        0\n    \"\"\"\n    # Input validation\n    if not isinstance(text, str):\n        raise TypeError(\"Input must be a string\")\n\n    vowels = {'a', 'e', 'i', 'o', 'u'}\n    count = 0\n\n    for char in text.lower():\n        if char in vowels:\n            count += 1\n\n    return count\n```\n\n### Key Features:\n1. **Type Checking**: Explicitly checks if input is a string\n2. **Case Insensitivity**: Converts entire string to lowercase before comparison\n3. **Edge Case Handling**:\n   - Empty strings return 0\n   - Non-alphabetic characters are ignored\n   - Non-string inputs raise TypeError\n4. **Efficiency**: Uses a set for O(1) vowel lookups\n5. **Comprehensive Docstring**: Includes:\n   - Function description\n   - Parameter explanation\n   - Return value\n   - Possible exceptions\n   - Examples\n\n### Example Usage:\n```python\nprint(count_vowels(\"Python\"))  # Output: 2\nprint(count_vowels(\"AEIOU\"))   # Output: 5\nprint(count_vowels(\"\"))        # Output: 0\n```\n\nWould you like me to add any additional features or modify the implementation in any way?",
+  "model_metadata": {
+    "prompt_tokens": 602,
+    "response_tokens": 500,
+    "total_duration": 7.258042097091675,
+    "cached": false,
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "timestamp": "2026-01-08T23:11:35.365520",
+  "error": null
+}

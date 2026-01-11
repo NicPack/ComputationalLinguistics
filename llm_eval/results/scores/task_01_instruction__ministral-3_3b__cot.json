@@ -1,0 +1,27 @@
+{
+  "experiment_id": "task_01_instruction__ministral-3_3b__cot",
+  "task_id": "task_01_instruction",
+  "model": "ministral-3:3b",
+  "strategy": "cot",
+  "criterion_scores": [
+    {
+      "criterion_name": "Format Compliance",
+      "score": 3,
+      "justification": "More than 3 sentences"
+    },
+    {
+      "criterion_name": "Content Quality",
+      "score": 3,
+      "justification": "Sounds more like an ad rather than client's review"
+    },
+    {
+      "criterion_name": "Naturalness",
+      "score": 5,
+      "justification": "[No justification provided]"
+    }
+  ],
+  "mean_score": 3.6666666666666665,
+  "overall_notes": "[No overall notes]",
+  "scorer": "human",
+  "timestamp": "2026-01-09T21:55:25.055431"
+}
